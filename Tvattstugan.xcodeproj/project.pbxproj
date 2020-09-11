@@ -13,6 +13,8 @@
 		CB0B768B25081CB200BB440B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0B768925081CB200BB440B /* Main.storyboard */; };
 		CB0B768D25081CB500BB440B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0B768C25081CB500BB440B /* Assets.xcassets */; };
 		CB0B769025081CB500BB440B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0B768E25081CB500BB440B /* LaunchScreen.storyboard */; };
+		CBBF9BED250A15BB00170F59 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBF9BEC250A15BB00170F59 /* SecondScreen.swift */; };
+		CBEEA754250B737F00262DFE /* Tvattstugan.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEA753250B737F00262DFE /* Tvattstugan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CB0B768C25081CB500BB440B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB0B768F25081CB500BB440B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB0B769125081CB500BB440B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBBF9BEC250A15BB00170F59 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		CBEEA753250B737F00262DFE /* Tvattstugan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tvattstugan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		CB0B767725081CB200BB440B = {
 			isa = PBXGroup;
 			children = (
+				CBEEA753250B737F00262DFE /* Tvattstugan.swift */,
+				CBBF9BEC250A15BB00170F59 /* SecondScreen.swift */,
 				CB0B768225081CB200BB440B /* Tvattstugan */,
 				CB0B768125081CB200BB440B /* Products */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB0B768825081CB200BB440B /* ViewController.swift in Sources */,
+				CBEEA754250B737F00262DFE /* Tvattstugan.swift in Sources */,
+				CBBF9BED250A15BB00170F59 /* SecondScreen.swift in Sources */,
 				CB0B768425081CB200BB440B /* AppDelegate.swift in Sources */,
 				CB0B768625081CB200BB440B /* SceneDelegate.swift in Sources */,
 			);
